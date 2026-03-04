@@ -106,7 +106,7 @@ export default function Portfolio() {
           <a href="https://www.linkedin.com/in/RRajinder" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-500 hover:bg-gray-800 bg-transparent px-4 py-2 inline-flex items-center gap-2 transition-colors">
             <Linkedin size={18}/> LinkedIn
           </a>
-          <a href="/Rajinder_Singh_CV.pdf" download>
+          <a href="/Rajinder_Singh_CV.pdf" target="_blank">
   <Button className="rounded-2xl flex gap-2 border border-gray-500">
     <Download size={18}/> Download CV
   </Button>
