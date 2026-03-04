@@ -97,9 +97,11 @@ export default function Portfolio() {
         </motion.p>
         
         <div className="flex flex-wrap justify-center gap-4 mt-10">
-          <Button onClick={() => setShowContact(true)} className="rounded-2xl flex gap-2 bg-blue-600 hover:bg-blue-700">
-            <Mail size={18}/> Contact Me
-          </Button>
+          <a href="mailto:rajansinghrajinder@gmail.com">
+    <Button className="rounded-2xl flex gap-2 bg-blue-600 hover:bg-blue-700">
+      <Mail size={18}/> Email Me
+    </Button>
+  </a>
           <a href="https://www.linkedin.com/in/RRajinder" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-500 hover:bg-gray-800 bg-transparent px-4 py-2 inline-flex items-center gap-2 transition-colors">
             <Linkedin size={18}/> LinkedIn
           </a>
