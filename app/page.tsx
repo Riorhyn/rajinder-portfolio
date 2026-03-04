@@ -100,7 +100,7 @@ export default function Portfolio() {
           <Button onClick={() => setShowContact(true)} className="rounded-2xl flex gap-2 bg-blue-600 hover:bg-blue-700">
             <Mail size={18}/> Contact Me
           </Button>
-          <a href="https://linkedin.com/in/RRajinder" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-500 hover:bg-gray-800 bg-transparent px-4 py-2 inline-flex items-center gap-2 transition-colors">
+          <a href="https://www.linkedin.com/in/RRajinder" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-500 hover:bg-gray-800 bg-transparent px-4 py-2 inline-flex items-center gap-2 transition-colors">
             <Linkedin size={18}/> LinkedIn
           </a>
           <a href="/Rajinder_Singh_CV.pdf" download className="rounded-2xl border border-gray-500 hover:bg-gray-800 bg-transparent px-4 py-2 inline-flex items-center gap-2 transition-colors">
